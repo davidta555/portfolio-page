@@ -1,0 +1,39 @@
+.main {
+  background: url("../../assets/mainImage.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mainTitle {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: xx-large;
+}
+
+.mainNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+
+.mainNav > * {
+  margin: 1vh;
+}
+
+.mainSocials {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  font-size: xx-large;
+  margin-right: 1rem;
+}
+
+.mainSocials > * {
+  margin-left: 1vh;
+  color: var(--color-bg);
+}

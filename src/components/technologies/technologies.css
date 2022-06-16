@@ -1,0 +1,54 @@
+.technologiesContainer {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.technologiesContainer > div {
+  background: var(--color-primary);
+  padding: 2.4rem 5rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  width: 30%;
+  transition: var(--transition);
+}
+
+.technologiesContainer > div:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: default;
+}
+
+.fontend {
+  grid-area: fe;
+}
+
+.backend {
+  grid-area: be;
+}
+
+.technologiesContainer > div h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--color-primary-variant);
+  font-size: x-large;
+}
+
+.technologiesContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2rem;
+}
+
+.codingLanguage {
+  display: flex;
+  gap: 1rem;
+  margin-right: 1rem;
+  font-size: 1.3rem;
+}
+
+.navIcon {
+  margin-top: 6px;
+  color: var(--color-light);
+  font-size: larger;
+}

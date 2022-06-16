@@ -1,0 +1,63 @@
+.navDiv {
+  display: flex;
+  position: relative;
+  font-size: xx-large;
+  background-color: #14213d;
+}
+
+.navDiv .navContainer {
+  width: 250px;
+  height: 100%;
+  background: var(--color-bg);
+  padding: 30px 0px;
+  position: fixed;
+}
+
+.navDiv .navContainer h2 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.navDiv .navContainer ul li {
+  padding: 15px;
+  border-bottom: 1px solid var(--color-light);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.navDiv .navContainer ul li a {
+  display: block;
+  font-size: large;
+}
+
+.navDiv .navContainer ul li a .navIcon {
+  width: 25px;
+  font-size: larger;
+  margin-right: 1rem;
+}
+
+.navDiv .navContainer ul li:hover {
+  background-color: var(--color-primary);
+  transition: var(--transition);
+}
+
+.navDiv .navContainer .navSocials {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.navDiv .navContainer .navSocials a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 45px;
+  text-align: center;
+  margin: 0 5px;
+  margin-bottom: 0.5rem;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
