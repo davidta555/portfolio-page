@@ -14,10 +14,10 @@ const App = () => {
       <Route path="about" element={<About />}></Route>
       <Route path="teachnologies" element={<Technologies />}></Route>
       <Route path="contact" element={<Contact />}></Route> */}
-      <Nav />
-      <About />
-      {/* <Technologies />
-      <Contact />*/}
+      {/* <Nav /> */}
+      {/* <About /> */}
+      <Technologies />
+      {/* <Contact /> */}
     </div>
   );
 };
