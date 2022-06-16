@@ -23,13 +23,13 @@ const Main = () => {
         <a href={CV} download className="btn btn-primary">
           Download CV
         </a>
-        <a href="#about" className="btn btn-primary">
+        <a href="about" className="btn btn-primary">
           About Me
         </a>
-        <a href="#technologies" className="btn btn-primary">
+        <a href="technologies" className="btn btn-primary">
           My Experience
         </a>
-        <a href="#contact" className="btn btn-primary">
+        <a href="contact" className="btn btn-primary">
           Connect with Me
         </a>
       </div>

@@ -49,7 +49,7 @@ h5 {
 }
 
 .aboutCard {
-  background: var(--color-bg-variant);
+  background: var(--color-primary);
   border: 1px solid transparent;
   border-radius: 1rem;
   padding: 2rem;

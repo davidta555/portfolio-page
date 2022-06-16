@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./nav.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -21,25 +22,25 @@ const Nav = () => {
         <h2>D日T</h2>
         <ul>
           <li>
-            <a href="#home">
+            <a href="/">
               <FontAwesomeIcon className="navIcon" icon={faHouseChimney} />
               Home
             </a>
           </li>
           <li>
-            <a href="#about">
+            <a href="/about">
               <FontAwesomeIcon className="navIcon" icon={faUser} />
               About
             </a>
           </li>
           <li>
-            <a href="#technologies">
+            <a href="/technologies">
               <FontAwesomeIcon className="navIcon" icon={faBookOpen} />
               Experience
             </a>
           </li>
           <li>
-            <a href="#contact">
+            <a href="/contact">
               <FontAwesomeIcon className="navIcon" icon={faAddressCard} />
               Contact Me
             </a>

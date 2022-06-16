@@ -1,5 +1,6 @@
 import React from "react";
 import "./about.css";
+import Nav from "../nav/Nav";
 import ProfilePic from "../../assets/profile.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -11,6 +12,7 @@ import {
 const About = () => {
   return (
     <div>
+      <Nav />
       <section id="about">
         <h5>Getting to Know</h5>
         <h2>Me</h2>

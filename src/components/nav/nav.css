@@ -57,6 +57,7 @@
   line-height: 45px;
   text-align: center;
   margin: 0 5px;
+  margin-bottom: 0.5rem;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }

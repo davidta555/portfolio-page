@@ -1,7 +1,6 @@
 .technologiesContainer {
-  display: grid;
-  grid-template-columns: repeat(3 1fr);
-  grid-template-areas: ". fe be";
+  display: flex;
+  justify-content: center;
   gap: 2rem;
 }
 
@@ -10,7 +9,7 @@
   padding: 2.4rem 5rem;
   border-radius: 2rem;
   border: 1px solid transparent;
-  width: 50%;
+  width: 30%;
   transition: var(--transition);
 }
 

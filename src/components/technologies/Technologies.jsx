@@ -1,5 +1,6 @@
 import React from "react";
 import "./technologies.css";
+import Nav from "../nav/Nav"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHtml5,
@@ -15,6 +16,7 @@ import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 const Technologies = () => {
   return (
     <section id="technologies">
+      <Nav />
       <h5>What I Worked With</h5>
       <h2>Experience</h2>
 
