@@ -5,7 +5,6 @@ import Nav from "./components/nav/Nav";
 import About from "./components/about/About";
 import Technologies from "./components/technologies/Technologies";
 import Contact from "./components/contact/Contact";
-import Footer from "./components/footer/Footer";
 
 const App = () => {
   return (
@@ -15,11 +14,10 @@ const App = () => {
       <Route path="about" element={<About />}></Route>
       <Route path="teachnologies" element={<Technologies />}></Route>
       <Route path="contact" element={<Contact />}></Route> */}
-      {/* <Nav /> */}
+      <Nav />
       <About />
       {/* <Technologies />
-      <Contact />
-      <Footer /> */}
+      <Contact />*/}
     </div>
   );
 };

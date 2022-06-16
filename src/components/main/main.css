@@ -1,5 +1,6 @@
 .main {
-  background-image: url("../../assets/mainImage.jpg");
+  background: url("../../assets/mainImage.jpg");
+  background-size: cover;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -17,6 +18,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 10rem;
 }
 
 .mainNav > * {
@@ -28,8 +30,10 @@
   justify-content: end;
   align-items: flex-end;
   font-size: xx-large;
+  margin-right: 1rem;
 }
 
 .mainSocials > * {
   margin-left: 1vh;
+  color: var(--color-bg);
 }
