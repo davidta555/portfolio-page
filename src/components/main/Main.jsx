@@ -8,6 +8,7 @@ import {
   faLinkedin,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
+import TypeWriterEffect from "react-typewriter-effect";
 
 const Main = () => {
   return (
@@ -16,7 +17,25 @@ const Main = () => {
       <div className="mainTitle">
         <h5>Hello, I'm</h5>
         <h1>David Ta</h1>
-        <h5>Fullstack Developer</h5>
+        <TypeWriterEffect
+          textStyle={{
+            fontFamily: "Noto Sans",
+            color: "#ffffff",
+            fontWeight: 500,
+            fontSize: "1.5em",
+          }}
+          startDelay={2000}
+          cursorColor="#ffffff"
+          multiText={[
+            "Gamer",
+            "Tennis Player",
+            "Audiophile",
+            "Learner",
+            "Fullstack Engineer",
+          ]}
+          multiTextDelay={1500}
+          typeSpeed={100}
+        />
       </div>
 
       <div className="mainNav">
