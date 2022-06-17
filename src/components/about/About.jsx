@@ -11,7 +11,7 @@ import {
 
 const About = () => {
   return (
-    <div>
+    <div className="pageContainer">
       <Nav />
       <section id="about">
         <h5>Getting to Know</h5>

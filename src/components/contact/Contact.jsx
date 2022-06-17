@@ -30,33 +30,35 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact">
+    <div className="pageContainer">
       <Nav />
-      <h5>Email for Inquries</h5>
-      <h2>Contact Me</h2>
+      <section id="contact">
+        <h5>Email for Inquries</h5>
+        <h2>Contact Me</h2>
 
-      <div className="container contactContainer">
-        <form ref={form} onSubmit={sendEmail}>
-          <input
-            type="text"
-            name="name"
-            placeholder="First and Last Name"
-            required
-          />
-          <input type="email" name="email" placeholder="Email" required />
-          <textarea
-            name=""
-            id="message"
-            rows="10"
-            placeholder="What do you want to talk about?"
-            required
-          ></textarea>
-          <button type="submit" className="btn btn-primary">
-            Send Message
-          </button>
-        </form>
-      </div>
-    </section>
+        <div className="container contactContainer">
+          <form ref={form} onSubmit={sendEmail}>
+            <input
+              type="text"
+              name="name"
+              placeholder="First and Last Name"
+              required
+            />
+            <input type="email" name="email" placeholder="Email" required />
+            <textarea
+              name=""
+              id="message"
+              rows="10"
+              placeholder="What do you want to talk about?"
+              required
+            ></textarea>
+            <button type="submit" className="btn btn-primary">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </section>
+    </div>
   );
 };
 
