@@ -13,10 +13,16 @@ import TypeWriterEffect from "react-typewriter-effect";
 const Main = () => {
   return (
     <div className="main">
-      <div></div>
       <div className="mainTitle">
         <h5>Hello, I'm</h5>
         <h1>David Ta</h1>
+        {/* 
+          Title: react-typewriter-effect
+          Author: kevoese
+          Date: 6/17/2022
+          Code version: 1.1.0
+          Availability: https://www.npmjs.com/package/react-typewriter-effect
+        */}
         <TypeWriterEffect
           textStyle={{
             fontFamily: "Noto Sans",
