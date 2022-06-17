@@ -19,14 +19,6 @@
   cursor: default;
 }
 
-.fontend {
-  grid-area: fe;
-}
-
-.backend {
-  grid-area: be;
-}
-
 .technologiesContainer > div h3 {
   text-align: center;
   margin-bottom: 2rem;
